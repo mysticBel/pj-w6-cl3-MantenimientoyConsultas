@@ -12,7 +12,7 @@ namespace POOI_CL3_MazaAuccatincoMaribel
 {
     public partial class MenuPrincipal : Form
     {
-        private int childFormNumber = 0;
+        
 
         public MenuPrincipal()
         {

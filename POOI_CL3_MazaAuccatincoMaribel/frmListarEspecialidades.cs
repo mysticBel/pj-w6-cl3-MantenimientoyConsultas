@@ -16,5 +16,12 @@ namespace POOI_CL3_MazaAuccatincoMaribel
         {
             InitializeComponent();
         }
+
+        private void frmListarEspecialidades_Load(object sender, EventArgs e)
+        {
+            DAOEnfermero objDAO = new DAOEnfermero();
+            dgEspecialidades.DataSource = objDAO.listadoEspecialidades();
+            dgEspecialidades.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
+        }
     }
 }
