@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace POOI_CL3_MazaAuccatincoMaribel
 {
-    internal class Enfermero
+    public class Enfermero
     {
+        public int ide_enf { get; set; }
+        public string nom_enf { get; set; }
+        public string ape_enf { get; set; }
+        public string tel_enf { get; set; }
+        public int ide_esp { get; set; }
     }
 }
