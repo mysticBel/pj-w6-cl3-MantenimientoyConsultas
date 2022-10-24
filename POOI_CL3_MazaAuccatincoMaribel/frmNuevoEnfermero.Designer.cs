@@ -37,7 +37,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.cboEspecialidad = new System.Windows.Forms.ComboBox();
-            this.lblCódigo = new System.Windows.Forms.Label();
+            this.lblCodigo = new System.Windows.Forms.Label();
             this.txtNombres = new System.Windows.Forms.TextBox();
             this.txtApellidos = new System.Windows.Forms.TextBox();
             this.txtTelefono = new System.Windows.Forms.TextBox();
@@ -122,15 +122,15 @@
             this.cboEspecialidad.Size = new System.Drawing.Size(272, 21);
             this.cboEspecialidad.TabIndex = 8;
             // 
-            // lblCódigo
+            // lblCodigo
             // 
-            this.lblCódigo.AutoSize = true;
-            this.lblCódigo.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCódigo.Location = new System.Drawing.Point(224, 94);
-            this.lblCódigo.Name = "lblCódigo";
-            this.lblCódigo.Size = new System.Drawing.Size(50, 24);
-            this.lblCódigo.TabIndex = 9;
-            this.lblCódigo.Text = "0000";
+            this.lblCodigo.AutoSize = true;
+            this.lblCodigo.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCodigo.Location = new System.Drawing.Point(224, 94);
+            this.lblCodigo.Name = "lblCodigo";
+            this.lblCodigo.Size = new System.Drawing.Size(50, 24);
+            this.lblCodigo.TabIndex = 9;
+            this.lblCodigo.Text = "0000";
             // 
             // txtNombres
             // 
@@ -178,7 +178,7 @@
             this.Controls.Add(this.txtTelefono);
             this.Controls.Add(this.txtApellidos);
             this.Controls.Add(this.txtNombres);
-            this.Controls.Add(this.lblCódigo);
+            this.Controls.Add(this.lblCodigo);
             this.Controls.Add(this.cboEspecialidad);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label6);
@@ -207,7 +207,7 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.ComboBox cboEspecialidad;
-        private System.Windows.Forms.Label lblCódigo;
+        private System.Windows.Forms.Label lblCodigo;
         private System.Windows.Forms.TextBox txtNombres;
         private System.Windows.Forms.TextBox txtApellidos;
         private System.Windows.Forms.TextBox txtTelefono;
