@@ -82,6 +82,18 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmActualizarEnfermero.resx">
+      <DependentUpon>frmActualizarEnfermero.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmListarEnfermeros.resx">
+      <DependentUpon>frmListarEnfermeros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmListarEspecialidades.resx">
+      <DependentUpon>frmListarEspecialidades.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNuevoEnfermero.resx">
+      <DependentUpon>frmNuevoEnfermero.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MenuPrincipal.resx">
       <DependentUpon>MenuPrincipal.cs</DependentUpon>
     </EmbeddedResource>

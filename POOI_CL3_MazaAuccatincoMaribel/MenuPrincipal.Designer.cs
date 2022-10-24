@@ -32,7 +32,6 @@
             this.menuStrip = new System.Windows.Forms.MenuStrip();
             this.statusStrip = new System.Windows.Forms.StatusStrip();
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
-            this.toolStripStatusLabel = new System.Windows.Forms.ToolStripStatusLabel();
             this.mantenimientoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.listadoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.listarEnfermerosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -40,7 +39,6 @@
             this.registrarNuevoEnfermeroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.actualizarDatosDeEnfermeroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip.SuspendLayout();
-            this.statusStrip.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip
@@ -56,19 +54,11 @@
             // 
             // statusStrip
             // 
-            this.statusStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripStatusLabel});
-            this.statusStrip.Location = new System.Drawing.Point(0, 431);
+            this.statusStrip.Location = new System.Drawing.Point(0, 430);
             this.statusStrip.Name = "statusStrip";
             this.statusStrip.Size = new System.Drawing.Size(632, 22);
             this.statusStrip.TabIndex = 2;
             this.statusStrip.Text = "StatusStrip";
-            // 
-            // toolStripStatusLabel
-            // 
-            this.toolStripStatusLabel.Name = "toolStripStatusLabel";
-            this.toolStripStatusLabel.Size = new System.Drawing.Size(42, 17);
-            this.toolStripStatusLabel.Text = "Estado";
             // 
             // mantenimientoToolStripMenuItem
             // 
@@ -93,41 +83,44 @@
             this.listarEnfermerosToolStripMenuItem.Name = "listarEnfermerosToolStripMenuItem";
             this.listarEnfermerosToolStripMenuItem.Size = new System.Drawing.Size(181, 22);
             this.listarEnfermerosToolStripMenuItem.Text = "Listar Enfermeros";
+            this.listarEnfermerosToolStripMenuItem.Click += new System.EventHandler(this.listarEnfermerosToolStripMenuItem_Click);
             // 
             // listarEspecialidadesToolStripMenuItem
             // 
             this.listarEspecialidadesToolStripMenuItem.Name = "listarEspecialidadesToolStripMenuItem";
             this.listarEspecialidadesToolStripMenuItem.Size = new System.Drawing.Size(181, 22);
             this.listarEspecialidadesToolStripMenuItem.Text = "Listar Especialidades";
+            this.listarEspecialidadesToolStripMenuItem.Click += new System.EventHandler(this.listarEspecialidadesToolStripMenuItem_Click);
             // 
             // registrarNuevoEnfermeroToolStripMenuItem
             // 
             this.registrarNuevoEnfermeroToolStripMenuItem.Name = "registrarNuevoEnfermeroToolStripMenuItem";
             this.registrarNuevoEnfermeroToolStripMenuItem.Size = new System.Drawing.Size(232, 22);
             this.registrarNuevoEnfermeroToolStripMenuItem.Text = "Registrar nuevo enfermero";
+            this.registrarNuevoEnfermeroToolStripMenuItem.Click += new System.EventHandler(this.registrarNuevoEnfermeroToolStripMenuItem_Click);
             // 
             // actualizarDatosDeEnfermeroToolStripMenuItem
             // 
             this.actualizarDatosDeEnfermeroToolStripMenuItem.Name = "actualizarDatosDeEnfermeroToolStripMenuItem";
             this.actualizarDatosDeEnfermeroToolStripMenuItem.Size = new System.Drawing.Size(232, 22);
             this.actualizarDatosDeEnfermeroToolStripMenuItem.Text = "Actualizar datos de enfermero";
+            this.actualizarDatosDeEnfermeroToolStripMenuItem.Click += new System.EventHandler(this.actualizarDatosDeEnfermeroToolStripMenuItem_Click);
             // 
             // MenuPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(632, 453);
+            this.ClientSize = new System.Drawing.Size(632, 452);
             this.Controls.Add(this.statusStrip);
             this.Controls.Add(this.menuStrip);
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip;
             this.Name = "MenuPrincipal";
             this.Text = "MenuPrincipal";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.MenuPrincipal_Load);
             this.menuStrip.ResumeLayout(false);
             this.menuStrip.PerformLayout();
-            this.statusStrip.ResumeLayout(false);
-            this.statusStrip.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -144,7 +137,6 @@
         private System.Windows.Forms.ToolStripMenuItem listadoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem listarEnfermerosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem listarEspecialidadesToolStripMenuItem;
-        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel;
     }
 }
 
