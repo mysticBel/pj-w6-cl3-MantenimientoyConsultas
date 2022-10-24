@@ -68,5 +68,16 @@ namespace POOI_CL3_MazaAuccatincoMaribel
             childForm.MdiParent = this;
             childForm.Show();
         }
+
+        private void enfermerosXEspecialidadToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            foreach (Form childForm1 in MdiChildren)
+            {
+                childForm1.Close();
+            }
+            frmEnfermerosxEspecialidad childForm = new frmEnfermerosxEspecialidad();
+            childForm.MdiParent = this;
+            childForm.Show();
+        }
     }
 }

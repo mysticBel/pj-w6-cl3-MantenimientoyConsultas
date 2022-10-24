@@ -56,6 +56,12 @@
     <Compile Include="frmActualizarEnfermero.Designer.cs">
       <DependentUpon>frmActualizarEnfermero.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmEnfermerosxEspecialidad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEnfermerosxEspecialidad.Designer.cs">
+      <DependentUpon>frmEnfermerosxEspecialidad.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmListarEnfermeros.cs">
       <SubType>Form</SubType>
     </Compile>

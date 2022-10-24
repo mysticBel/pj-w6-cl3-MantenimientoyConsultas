@@ -16,7 +16,7 @@ namespace POOI_CL3_MazaAuccatincoMaribel
         public frmNuevoEnfermero()
         {
             InitializeComponent();
-            cboEspecialidad.DataSource = objDAO.listadoEspecialidades();
+            cboEspecialidad.DataSource = objDAO.llenarCboEspecialidad();
             cboEspecialidad.DisplayMember = "nom_esp";
             cboEspecialidad.ValueMember = "ide_esp";
         }
@@ -50,6 +50,16 @@ namespace POOI_CL3_MazaAuccatincoMaribel
                 MessageBox.Show
                 (ex.Message);
             }
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblCodigo_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
