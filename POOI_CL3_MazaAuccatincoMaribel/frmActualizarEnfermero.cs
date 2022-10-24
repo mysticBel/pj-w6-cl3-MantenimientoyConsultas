@@ -58,7 +58,7 @@ namespace POOI_CL3_MazaAuccatincoMaribel
 
         private void btnActualizar_Click(object sender, EventArgs e)
         {
-            Enfermero objV = new Enfermero()
+            Enfermero objE = new Enfermero()
             {
                 ide_enf = int.Parse(txtCodigo.Text),
                 nom_enf = txtNombres.Text,
@@ -68,7 +68,7 @@ namespace POOI_CL3_MazaAuccatincoMaribel
             };
             try
             {
-                int n = objDAO.actualizarEnfermero(objV);
+                int n = objDAO.actualizarEnfermero(objE);
                 if (n == 1)
                     MessageBox.Show(n + " Se ha ACTUALIZADO un registro");
                 dgEnfermeros.DataSource = objDAO.listadoEnfermeros();
