@@ -16,5 +16,15 @@ namespace POOI_CL3_MazaAuccatincoMaribel
         {
             InitializeComponent();
         }
+
+        private void frmNuevoEnfermero_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnRegistrar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

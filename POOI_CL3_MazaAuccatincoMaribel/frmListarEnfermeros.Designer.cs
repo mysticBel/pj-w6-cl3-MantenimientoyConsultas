@@ -44,14 +44,14 @@
             this.panel1.Controls.Add(this.dgEnfermeros);
             this.panel1.Location = new System.Drawing.Point(2, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(798, 451);
+            this.panel1.Size = new System.Drawing.Size(638, 451);
             this.panel1.TabIndex = 0;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(211, 22);
+            this.label1.Location = new System.Drawing.Point(117, 21);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(375, 31);
             this.label1.TabIndex = 0;
@@ -60,9 +60,9 @@
             // dgEnfermeros
             // 
             this.dgEnfermeros.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgEnfermeros.Location = new System.Drawing.Point(39, 106);
+            this.dgEnfermeros.Location = new System.Drawing.Point(19, 102);
             this.dgEnfermeros.Name = "dgEnfermeros";
-            this.dgEnfermeros.Size = new System.Drawing.Size(719, 300);
+            this.dgEnfermeros.Size = new System.Drawing.Size(604, 276);
             this.dgEnfermeros.TabIndex = 1;
             // 
             // panel2
@@ -71,14 +71,14 @@
             this.panel2.Controls.Add(this.label1);
             this.panel2.Location = new System.Drawing.Point(0, 12);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(798, 73);
+            this.panel2.Size = new System.Drawing.Size(638, 73);
             this.panel2.TabIndex = 5;
             // 
             // frmListarEnfermeros
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(637, 408);
             this.Controls.Add(this.panel1);
             this.Name = "frmListarEnfermeros";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
