@@ -52,14 +52,5 @@ namespace POOI_CL3_MazaAuccatincoMaribel
             }
         }
 
-        private void label6_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lblCodigo_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

@@ -54,7 +54,6 @@
             this.lblCodigo.Size = new System.Drawing.Size(50, 24);
             this.lblCodigo.TabIndex = 9;
             this.lblCodigo.Text = "0000";
-            this.lblCodigo.Click += new System.EventHandler(this.lblCodigo_Click);
             // 
             // btnRegistrar
             // 
