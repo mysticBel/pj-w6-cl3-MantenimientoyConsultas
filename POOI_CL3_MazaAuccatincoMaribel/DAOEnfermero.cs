@@ -127,9 +127,21 @@ namespace POOI_CL3_MazaAuccatincoMaribel
             return 0;
         }
 
-        
 
+        // Listar Enfermeros x Especialidad 
+        public DataTable listadoEnfermerosxEspecialidad(Enfermero objE)
+        {
+            cn = objCon.getConecta();
 
+            cn.Open();
+            SqlDataAdapter da = new SqlDataAdapter("SP_ENFERMEROSXESPECIALIDAD", cn);
+            da.SelectCommand.CommandType = CommandType.StoredProcedure;
+            da.SelectCommand.Parameters.AddWithValue("@esp", objE.ide_esp);
+            DataTable dt = new DataTable();
+            da.Fill(dt);
+            cn.Close();
+            return dt;
+        }
     }
 }
 

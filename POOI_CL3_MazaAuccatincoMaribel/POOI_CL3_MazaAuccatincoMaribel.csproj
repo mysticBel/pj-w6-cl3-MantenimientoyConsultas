@@ -91,6 +91,9 @@
     <EmbeddedResource Include="frmActualizarEnfermero.resx">
       <DependentUpon>frmActualizarEnfermero.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmEnfermerosxEspecialidad.resx">
+      <DependentUpon>frmEnfermerosxEspecialidad.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmListarEnfermeros.resx">
       <DependentUpon>frmListarEnfermeros.cs</DependentUpon>
     </EmbeddedResource>
